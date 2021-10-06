@@ -1,0 +1,34 @@
+ng new blog-app
+
+cd blog-app\
+
+code .
+
+ng g m pages/home --module app --route home
+
+ng g m pages/contact --module app --route contact
+
+Manualmente creamos en app:
+carpetas: 
+shared	/components
+	/models
+	/services
+
+En Angular 11 podemos usar:
+ng s --hmr --> solo para que recargue la parte que haya sido modificada.
+
+ng g c shared/components/header --module app
+ng g m shared/components/header --module app
+
+ng add @angular/fire
+
+
+https://github.com/angular/angularfire/blob/master/docs/install-and-setup.md
+https://getbootstrap.com/docs/4.5/getting-started/introduction/
+https://github.com/angular/angularfire
+https://sweetalert2.github.io/
+
+
+npm install sweetalert2
+
+min 1:05:57  https://www.youtube.com/watch?v=aXYN4WUR-b0&t=1s

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "blog-contactformfirebase": {
+      "hosting": {
+        "blog-app": [
+          "blog-contactformfirebase"
+        ]
+      }
+    }
+  }
+}
